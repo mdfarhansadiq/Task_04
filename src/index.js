@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MultiState from "./Component/MultiState";
+import SingleState from "./Component/SingleState";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
+    <SingleState/>
+    {/*<MultiState/>*/}
   </React.StrictMode>,
   document.getElementById('root')
 );
